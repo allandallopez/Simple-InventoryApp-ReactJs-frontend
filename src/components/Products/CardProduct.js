@@ -3,21 +3,28 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 
-function CardProduct({ Product, refresh }) {
+const CardProduct = (props) => {
 	async function deleteProduct() {
-		await axios.delete('/products/' + Product.id);
-		return refresh();
+		await axios.delete('/products/' + props.Product.id);
 	}
 
 	return (
 		<div className="col-md-4 card" style={{ margin: 7 }}>
-			<img src={Product.image} />
-			<h3>{Product.name}</h3>
-			<p>Quantity : {Product.quantity}</p>
-			<p>Category: {Product.category}</p>
+			<img
+				src={props.Product.image}
+				onError={() => {
+					props.Product.image =
+						'https://cdn4.vectorstock.com/i/1000x1000/18/93/silhouette-modern-car-vector-4951893.jpg';
+					props.refresh();
+				}}
+			/>
+			<h3>{props.Product.name}</h3>
+			<p>Quantity : {props.Product.quantity}</p>
+			<p>Category: {props.Product.category}</p>
+			<p>Date Added : {props.Product.date_added}</p>
 			<hr />
 			<div className="text-center">
-				<Link to={'/edit/' + Product.id}>
+				<Link to={'/edit/' + props.Product.id}>
 					<Button variant="outline-info" style={{ margin: 7 }}>
 						Edit
 					</Button>
@@ -32,6 +39,6 @@ function CardProduct({ Product, refresh }) {
 			</Button>
 		</div>
 	);
-}
+};
 
 export default CardProduct;
