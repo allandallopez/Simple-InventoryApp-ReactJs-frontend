@@ -2,10 +2,35 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
+import { confirmAlert } from 'react-confirm-alert';
+import 'react-confirm-alert/src/react-confirm-alert.css';
 
 const CardProduct = (props) => {
+	var token = localStorage.getItem('auth');
 	async function deleteProduct() {
-		await axios.delete('/products/' + props.Product.id);
+		await axios.delete('/products/' + props.Product.id, {
+			headers: {
+				authorization: 'Dello ' + token
+			}
+		});
+		window.location.replace('/Product');
+	}
+
+	function deleteConfirm() {
+		confirmAlert({
+			title: 'Product',
+			message: 'Are you sure to delete ' + props.Product.name + ' ?',
+			buttons: [
+				{
+					label: 'Yes, Im sure',
+					onClick: () => deleteProduct()
+				},
+				{
+					label: 'No, I dont',
+					onClick: () => {}
+				}
+			]
+		});
 	}
 
 	return (
@@ -30,11 +55,9 @@ const CardProduct = (props) => {
 					</Button>
 				</Link>
 			</div>
-			<Link to={'/'} />
-			<Button variant="info">Detail</Button>
 			<br />
 			<Link to={'/'} />
-			<Button variant="danger" onClick={deleteProduct}>
+			<Button variant="danger" onClick={deleteConfirm}>
 				Delete
 			</Button>
 		</div>

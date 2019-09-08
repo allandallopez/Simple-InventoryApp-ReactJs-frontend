@@ -20,7 +20,7 @@ class AddProduct extends Component {
 		console.log(this.state);
 		await axios.post('/products', this.state, {
 			headers: {
-				authorization: 'Dello ' + token //the token is a variable which holds the token
+				authorization: 'Dello ' + token //
 			}
 		});
 		this.props.history.push('/Product');
