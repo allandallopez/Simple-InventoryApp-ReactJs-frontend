@@ -1,43 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inventory App Front End With React js
 
-## Available Scripts
+<p align="center">
+  <a href="https://nodejs.org/">
+    <img alt="restfulapi" title="Restful API" src="https://www.onlinebooksreview.com/uploads/blog_images/2017/10/19_reactjs.png">
+  </a>
+</p>
 
-In the project directory, you can run:
+---
+## Table of contents
+* [Description](#description)
+* [Prerequisite](#prerequisite)
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [License](#license)
 
-### `npm start`
+## Description
+The purpose of making this application is to make users is easier in managing their Inventory of products in the form of complete data and sorted by category. Then users can immediately add new data and can edit data if there are errors or changes and can delete  the data. Don't forget this application requires users to be able to access and use the features in it by first registering if you don't have an account and login if you already have one.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prerequisite
+- Node.js - Download and Install [Node.js](https://nodejs.org/en/) with [NVM](https://github.com/creationix/nvm) (Node Version Manager) 
+- Simple bash script to manage multiple active node.js versions.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Installation
+### Clone
+```
+$ git clone https://github.com/allandallopez/Simple-InventoryApp-ReactJs-frontend.git
+$ cd Simple-InventoryApp-ReactJs-frontend
+$ npm install
+$ npm start
+```
+### Clone Backend
+```
+$ git clone https://github.com/allandallopez/My-Inventory-App.git
+$ cd My-Inventory-App
+$ npm install
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Preview App
+## Documentation
 
 ### Login User Page
 ![this](https://user-images.githubusercontent.com/45220508/64486522-67af2f80-d258-11e9-93b5-1791b11cdc59.PNG)
@@ -59,4 +58,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Delete Data Action
 ![Capture6](https://user-images.githubusercontent.com/45220508/64486503-3a628180-d258-11e9-95c0-a7718b403011.PNG)
+
+### License
+----
+[ISC](https://en.wikipedia.org/wiki/ISC_license "ISC")
 
