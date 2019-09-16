@@ -22,6 +22,12 @@ The purpose of making this application is to make users is easier in managing th
 - Simple bash script to manage multiple active node.js versions.
 
 ## Installation
+### Clone Backend
+```
+$ git clone https://github.com/allandallopez/My-Inventory-App.git
+$ cd My-Inventory-App
+$ npm install
+```
 ### Clone
 ```
 $ git clone https://github.com/allandallopez/Simple-InventoryApp-ReactJs-frontend.git
@@ -29,12 +35,7 @@ $ cd Simple-InventoryApp-ReactJs-frontend
 $ npm install
 $ npm start
 ```
-### Clone Backend
-```
-$ git clone https://github.com/allandallopez/My-Inventory-App.git
-$ cd My-Inventory-App
-$ npm install
-```
+
 
 ## Documentation
 
