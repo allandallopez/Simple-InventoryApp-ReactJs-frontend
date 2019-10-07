@@ -24,7 +24,7 @@ The purpose of making this application is to make users is easier in managing th
 ## Installation
 ### Clone Backend
 ```
-$ git clone https://github.com/allandallopez/My-Inventory-App.git
+$ git clone https://github.com/allandallopez/InventoryApp-Backend-with-React-RestfulAPI-Mysql.git
 $ cd My-Inventory-App
 $ npm install
 ```
