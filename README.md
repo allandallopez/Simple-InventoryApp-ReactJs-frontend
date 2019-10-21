@@ -1,8 +1,7 @@
-## Inventory App Front End With React js
+## Calculator App with React Native
 
 <p align="center">
-  <a href="https://nodejs.org/">
-    <img alt="restfulapi" title="Restful API" src="https://www.onlinebooksreview.com/uploads/blog_images/2017/10/19_reactjs.png">
+    <img alt="reactnative" title="React Native" src="https://www.futuremind.com/m/cache/c8/15/c8150d863e584ed42ccfbdc3f3f1aa3a.jpg">
   </a>
 </p>
 
@@ -15,51 +14,33 @@
 * [License](#license)
 
 ## Description
-The purpose of making this application is to make users is easier in managing their Inventory of products in the form of complete data and sorted by category. Then users can immediately add new data and can edit data if there are errors or changes and can delete  the data. Don't forget this application requires users to be able to access and use the features in it by first registering if you don't have an account and login if you already have one.
+A simple calculator app for counting a value that is input on the third form that provided.
 
 ## Prerequisite
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/) with [NVM](https://github.com/creationix/nvm) (Node Version Manager) 
-- Simple bash script to manage multiple active node.js versions.
+- Prepareing React Native [Documentation React Native](https://facebook.github.io/react-native/)
 
 ## Installation
-### Clone Backend
-```
-$ git clone https://github.com/allandallopez/InventoryApp-Backend-with-React-RestfulAPI-Mysql.git
-$ cd My-Inventory-App
-$ npm install
-```
 ### Clone
 ```
-$ git clone https://github.com/allandallopez/Simple-InventoryApp-ReactJs-frontend.git
-$ cd Simple-InventoryApp-ReactJs-frontend
+$ react-native init CalculatorApp
+$ cd CalculatorApp
+$ git clone https://github.com/allandallopez/CalculatorApp-ReactNative.git
 $ npm install
-$ npm start
+$ react-native run-android
 ```
 
 
 ## Documentation
 
-### Login User Page
-![this](https://user-images.githubusercontent.com/45220508/64486522-67af2f80-d258-11e9-93b5-1791b11cdc59.PNG)
 
-### Register User Page 
-![Capture5](https://user-images.githubusercontent.com/45220508/64486351-37ff2800-d256-11e9-97be-f8ea37cc1de9.PNG)
-
-### Home Page
-![Capture2](https://user-images.githubusercontent.com/45220508/64486418-20746f00-d257-11e9-892a-772262f0b6c3.PNG)
-
-### Search Data Using Name
-![Capture3](https://user-images.githubusercontent.com/45220508/64486426-3da93d80-d257-11e9-8c09-94b5cd4e38e2.PNG)
-
-### Form Add New Data
-![Capture4](https://user-images.githubusercontent.com/45220508/64486440-7ba66180-d257-11e9-9058-e0b216a31605.PNG)
-
-### Form Edit Data
-![its](https://user-images.githubusercontent.com/45220508/64486595-10f62580-d259-11e9-8971-41e7655451e3.PNG)
-
-### Delete Data Action
-![Capture6](https://user-images.githubusercontent.com/45220508/64486503-3a628180-d258-11e9-95c0-a7718b403011.PNG)
-
+### Main Page
+ <img src="https://user-images.githubusercontent.com/45220508/67212021-dda4da00-f445-11e9-967e-e2b18559ff23.png" width="300" height="400">
+---
+ <img src="https://user-images.githubusercontent.com/45220508/67212924-5193b200-f447-11e9-9002-65d21c3ebfe2.png" width="300" height="400">
+---
+ <img src="https://user-images.githubusercontent.com/45220508/67213006-7720bb80-f447-11e9-99fb-e63d384850af.png" width="300" height="400">
+ 
 ### License
 ----
 [ISC](https://en.wikipedia.org/wiki/ISC_license "ISC")
