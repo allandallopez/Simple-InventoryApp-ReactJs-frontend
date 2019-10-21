@@ -35,11 +35,13 @@ $ react-native run-android
 
 
 ### Main Page
- <img src="https://user-images.githubusercontent.com/45220508/67212021-dda4da00-f445-11e9-967e-e2b18559ff23.png" width="300" height="400">
-----
- <img src="https://user-images.githubusercontent.com/45220508/67212924-5193b200-f447-11e9-9002-65d21c3ebfe2.png" width="300" height="400">
-----
- <img src="https://user-images.githubusercontent.com/45220508/67213006-7720bb80-f447-11e9-99fb-e63d384850af.png" width="300" height="400">
+ <img src="https://user-images.githubusercontent.com/45220508/67212021-dda4da00-f445-11e9-967e-e2b18559ff23.png" width="250" height="400">
+
+
+ <img src="https://user-images.githubusercontent.com/45220508/67212924-5193b200-f447-11e9-9002-65d21c3ebfe2.png" width="250" height="400">
+
+
+ <img src="https://user-images.githubusercontent.com/45220508/67213006-7720bb80-f447-11e9-99fb-e63d384850af.png" width="250" height="400">
  
 ### License
 ----
