@@ -18,7 +18,7 @@ A simple calculator app for counting a value that is input on the third form tha
 
 ## Prerequisite
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/) with [NVM](https://github.com/creationix/nvm) (Node Version Manager) 
-- Prepareing React Native [Documentation React Native](https://facebook.github.io/react-native/)
+- Preparing React Native [Documentation React Native](https://facebook.github.io/react-native/)
 
 ## Installation
 ### Clone
